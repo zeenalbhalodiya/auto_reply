@@ -95,7 +95,7 @@ def on_enter(event=None):
         expecting_name = False
         return
 
-    if lower_msg in ["blue", "green", "yellow", "pink", "red", "orange"]:
+    if lower_msg in ["blue", "green", "yellow", "pink", "red", "orange", "baby pink", "sky blue"]:
         selected_color = lower_msg
         add_message("", sender="Bot", color=selected_color)
         return
